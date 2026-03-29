@@ -1,5 +1,6 @@
 import DefaultTheme from "vitepress/theme";
 import type { Theme } from "vitepress";
+import "./custom.css";
 import StarBadge from "../components/StarBadge.vue";
 import ProjectCard from "../components/ProjectCard.vue";
 import ProjectFilter from "../components/ProjectFilter.vue";
