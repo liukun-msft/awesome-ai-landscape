@@ -1,0 +1,19 @@
+name: Semantic Kernel
+slug: semantic-kernel
+repo: microsoft/semantic-kernel
+website: https://learn.microsoft.com/en-us/semantic-kernel/
+category: framework
+tags: [microsoft, enterprise, csharp, python, orchestration]
+difficulty: intermediate
+status: active
+review: |
+  Microsoft's lightweight SDK for integrating LLMs into conventional applications.
+  Supports C#, Python, and Java with enterprise-grade patterns.
+  Best for .NET/enterprise teams integrating AI into existing applications.
+use_cases:
+  - enterprise
+  - orchestration
+  - tool-integration
+related:
+  - langchain
+  - autogen

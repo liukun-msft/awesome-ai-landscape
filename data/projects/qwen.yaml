@@ -1,0 +1,20 @@
+name: Qwen
+slug: qwen
+repo: QwenLM/Qwen2.5
+website: https://qwenlm.github.io
+category: llm
+tags: [open-source, multilingual, alibaba, coding]
+difficulty: intermediate
+status: active
+review: |
+  Alibaba's open-weight model family with strong multilingual and coding capabilities.
+  Qwen2.5 offers competitive performance across a wide range of model sizes (0.5B to 72B).
+  Best for multilingual applications and as a cost-effective open alternative.
+use_cases:
+  - multilingual
+  - coding
+  - local-deployment
+related:
+  - llama
+  - deepseek
+  - mistral

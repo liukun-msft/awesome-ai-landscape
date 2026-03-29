@@ -1,0 +1,19 @@
+name: Mistral
+slug: mistral
+repo: mistralai/mistral-inference
+website: https://mistral.ai
+category: llm
+tags: [open-source, efficient, european, moe]
+difficulty: intermediate
+status: active
+review: |
+  European AI lab producing highly efficient open-weight models.
+  Mixtral pioneered open-source Mixture of Experts, delivering strong performance at lower cost.
+  Best for teams needing efficient, capable open models with commercial licensing.
+use_cases:
+  - local-deployment
+  - fine-tuning
+  - coding
+related:
+  - llama
+  - ollama

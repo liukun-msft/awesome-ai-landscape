@@ -1,0 +1,19 @@
+name: LangSmith
+slug: langsmith
+repo: langchain-ai/langsmith-sdk
+website: https://smith.langchain.com
+category: infra
+tags: [observability, tracing, evaluation, langchain]
+difficulty: intermediate
+status: active
+review: |
+  LangChain's platform for debugging, testing, evaluating, and monitoring LLM applications.
+  Deep integration with LangChain ecosystem with dataset management and annotation tools.
+  Best for LangChain users who want seamless observability and evaluation.
+use_cases:
+  - observability
+  - evaluation
+  - testing
+related:
+  - langfuse
+  - langchain

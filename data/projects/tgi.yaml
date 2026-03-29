@@ -1,0 +1,19 @@
+name: Text Generation Inference (TGI)
+slug: tgi
+repo: huggingface/text-generation-inference
+website: https://huggingface.co/docs/text-generation-inference
+category: infra
+tags: [serving, inference, huggingface, rust]
+difficulty: advanced
+status: active
+review: |
+  Hugging Face's production-ready inference server for LLMs.
+  Optimized with continuous batching, tensor parallelism, and quantization support.
+  Best for Hugging Face ecosystem users deploying models in production.
+use_cases:
+  - model-serving
+  - inference
+  - deployment
+related:
+  - vllm
+  - ollama

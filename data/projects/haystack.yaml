@@ -1,0 +1,19 @@
+name: Haystack
+slug: haystack
+repo: deepset-ai/haystack
+website: https://haystack.deepset.ai
+category: framework
+tags: [rag, pipelines, python, search, production]
+difficulty: intermediate
+status: active
+review: |
+  Production-ready framework for building LLM applications with composable pipelines.
+  Particularly strong for RAG, semantic search, and document processing workflows.
+  Best for teams building production search and question-answering systems.
+use_cases:
+  - rag
+  - search
+  - document-processing
+related:
+  - llamaindex
+  - langchain

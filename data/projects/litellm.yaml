@@ -1,0 +1,20 @@
+name: LiteLLM
+slug: litellm
+repo: BerriAI/litellm
+website: https://litellm.ai
+category: framework
+tags: [proxy, gateway, openai-compatible, python, routing]
+difficulty: beginner
+status: active
+review: |
+  Universal API proxy that provides a unified OpenAI-compatible interface to 100+ LLM providers.
+  Simplifies multi-provider management with load balancing, fallbacks, and spend tracking.
+  Best for teams using multiple LLM providers that want a single consistent API.
+use_cases:
+  - gateway
+  - multi-provider
+  - cost-management
+related:
+  - openai-api
+  - anthropic-api
+  - ollama

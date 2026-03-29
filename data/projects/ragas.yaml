@@ -1,0 +1,20 @@
+name: Ragas
+slug: ragas
+repo: explodinggradients/ragas
+website: https://ragas.io
+category: infra
+tags: [evaluation, rag, metrics, testing]
+difficulty: intermediate
+status: active
+review: |
+  Framework for evaluating RAG pipeline quality with research-backed metrics.
+  Measures faithfulness, answer relevancy, context precision, and context recall.
+  Best for systematically measuring and improving RAG application quality.
+use_cases:
+  - evaluation
+  - rag
+  - testing
+related:
+  - langfuse
+  - langchain
+  - llamaindex

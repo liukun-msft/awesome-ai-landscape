@@ -1,0 +1,20 @@
+name: GPT-4 / GPT-4o
+slug: gpt-4
+repo: openai/openai-cookbook
+website: https://platform.openai.com
+category: llm
+tags: [gpt, multimodal, reasoning, api]
+difficulty: beginner
+status: active
+review: |
+  The most widely adopted commercial LLM family.
+  GPT-4o adds native vision, audio, and faster inference.
+  Best for general-purpose tasks with broad tool and API ecosystem support.
+use_cases:
+  - chatbot
+  - coding
+  - reasoning
+related:
+  - openai-api
+  - claude
+  - gemini

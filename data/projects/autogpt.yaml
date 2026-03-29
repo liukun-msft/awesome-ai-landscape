@@ -1,0 +1,19 @@
+name: AutoGPT
+slug: autogpt
+repo: Significant-Gravitas/AutoGPT
+website: https://agpt.co
+category: agent
+tags: [autonomous, general-purpose, python, popular]
+difficulty: intermediate
+status: active
+review: |
+  The project that ignited the AI agent movement with autonomous goal-driven task execution.
+  Now evolved into a platform for building, deploying, and managing AI agents.
+  Historically significant — started the conversation about autonomous AI agents.
+use_cases:
+  - automation
+  - research
+  - general-purpose
+related:
+  - crewai
+  - langchain

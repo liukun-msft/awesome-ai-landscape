@@ -1,0 +1,18 @@
+name: MCP Servers (Official)
+slug: mcp-servers
+repo: modelcontextprotocol/servers
+website: https://modelcontextprotocol.io
+category: mcp
+tags: [mcp, reference, filesystem, github, slack]
+difficulty: beginner
+status: active
+review: |
+  Official collection of reference MCP server implementations (filesystem, GitHub, Slack, etc.).
+  Great starting point for understanding MCP patterns and building custom servers.
+  Best for learning MCP by example and using battle-tested tool integrations.
+use_cases:
+  - tool-integration
+  - reference
+related:
+  - mcp-typescript-sdk
+  - mcp-python-sdk

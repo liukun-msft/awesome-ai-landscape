@@ -1,0 +1,20 @@
+name: vLLM
+slug: vllm
+repo: vllm-project/vllm
+website: https://vllm.ai
+category: infra
+tags: [serving, inference, gpu, high-throughput]
+difficulty: advanced
+status: active
+review: |
+  High-throughput LLM inference engine with PagedAttention for efficient GPU memory management.
+  The de facto standard for self-hosting open-weight models at scale.
+  Best for teams deploying open models that need maximum throughput per GPU dollar.
+use_cases:
+  - model-serving
+  - inference
+  - deployment
+related:
+  - ollama
+  - llama
+  - tgi

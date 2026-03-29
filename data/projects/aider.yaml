@@ -1,0 +1,19 @@
+name: Aider
+slug: aider
+repo: Aider-AI/aider
+website: https://aider.chat
+category: agent
+tags: [coding, cli, git, pair-programming, python]
+difficulty: beginner
+status: active
+review: |
+  AI pair programming in the terminal that works directly with your git repo.
+  Automatically creates well-formed commits and supports multiple LLM providers.
+  Best for developers wanting AI-assisted coding with clean git integration.
+use_cases:
+  - coding
+  - pair-programming
+related:
+  - claude-code
+  - cursor
+  - codex-cli

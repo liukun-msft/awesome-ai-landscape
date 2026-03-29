@@ -1,0 +1,18 @@
+name: MCP Python SDK
+slug: mcp-python-sdk
+repo: modelcontextprotocol/python-sdk
+website: https://modelcontextprotocol.io
+category: mcp
+tags: [mcp, sdk, python, protocol]
+difficulty: intermediate
+status: active
+review: |
+  Official Python SDK for building MCP servers and clients.
+  Mirror of the TypeScript SDK with Pythonic API patterns.
+  Best for Python developers building MCP tool integrations for AI agents.
+use_cases:
+  - tool-integration
+  - agent-extension
+related:
+  - mcp-typescript-sdk
+  - claude-code

@@ -1,0 +1,19 @@
+name: Dify
+slug: dify
+repo: langgenius/dify
+website: https://dify.ai
+category: framework
+tags: [low-code, workflow, rag, self-hosted, visual]
+difficulty: beginner
+status: active
+review: |
+  Open-source platform for building LLM apps with a visual workflow editor.
+  Combines prompt engineering, RAG, and agent capabilities in a web UI.
+  Best for teams wanting a no-code/low-code approach to building AI applications.
+use_cases:
+  - chatbot
+  - rag
+  - workflow
+related:
+  - langchain
+  - flowise

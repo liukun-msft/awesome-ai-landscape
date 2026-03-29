@@ -1,0 +1,20 @@
+name: OpenAI Agents SDK
+slug: openai-agents-sdk
+repo: openai/openai-agents-python
+website: https://openai.github.io/openai-agents-python/
+category: framework
+tags: [agents, openai, python, handoffs, guardrails]
+difficulty: intermediate
+status: active
+review: |
+  OpenAI's official framework for building multi-agent workflows with handoffs and guardrails.
+  Lightweight and opinionated with built-in tracing and tool execution.
+  Best for teams already using OpenAI APIs wanting a structured agent framework.
+use_cases:
+  - agents
+  - multi-agent
+  - tool-integration
+related:
+  - langchain
+  - crewai
+  - autogen

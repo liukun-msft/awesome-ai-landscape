@@ -1,0 +1,20 @@
+name: Qdrant
+slug: qdrant
+repo: qdrant/qdrant
+website: https://qdrant.tech
+category: infra
+tags: [vector-database, rust, high-performance, filtering]
+difficulty: intermediate
+status: active
+review: |
+  High-performance vector database written in Rust with advanced filtering capabilities.
+  Supports payload filtering during search, crucial for multi-tenant RAG applications.
+  Best for performance-critical applications needing fast vector search with complex filters.
+use_cases:
+  - vector-search
+  - rag
+  - filtering
+related:
+  - chromadb
+  - weaviate
+  - pinecone

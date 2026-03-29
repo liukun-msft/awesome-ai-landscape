@@ -1,0 +1,20 @@
+name: Unstructured
+slug: unstructured
+repo: Unstructured-IO/unstructured
+website: https://unstructured.io
+category: skill
+tags: [document-parsing, pdf, etl, rag, data-prep]
+difficulty: intermediate
+status: active
+review: |
+  Library for extracting and preprocessing content from PDFs, HTML, images, and other documents.
+  Handles messy real-world documents with OCR, table extraction, and chunking strategies.
+  Best for RAG pipelines that need to ingest diverse document formats.
+use_cases:
+  - document-processing
+  - rag
+  - etl
+related:
+  - llamaindex
+  - langchain
+  - firecrawl

@@ -1,0 +1,19 @@
+name: LangFuse
+slug: langfuse
+repo: langfuse/langfuse
+website: https://langfuse.com
+category: infra
+tags: [observability, tracing, evaluation, open-source]
+difficulty: intermediate
+status: active
+review: |
+  Open-source LLM observability platform for tracing, evaluation, and prompt management.
+  Captures full execution traces of LLM applications with cost tracking.
+  Best for debugging, monitoring, and iterating on LLM application quality.
+use_cases:
+  - observability
+  - evaluation
+  - debugging
+related:
+  - langsmith
+  - langchain

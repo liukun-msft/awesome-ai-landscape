@@ -1,0 +1,19 @@
+name: SWE-agent
+slug: swe-agent
+repo: princeton-nlp/SWE-agent
+website: https://swe-agent.com
+category: agent
+tags: [coding, github-issues, research, autonomous]
+difficulty: advanced
+status: active
+review: |
+  Research agent that autonomously resolves GitHub issues by navigating codebases.
+  Achieves strong results on the SWE-bench benchmark for real-world bug fixing.
+  Best for understanding autonomous coding agent research and evaluation.
+use_cases:
+  - coding
+  - bug-fixing
+  - research
+related:
+  - openhands
+  - claude-code

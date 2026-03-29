@@ -1,0 +1,19 @@
+name: Browser Use
+slug: browser-use
+repo: browser-use/browser-use
+website: https://browser-use.com
+category: skill
+tags: [browser, automation, web-scraping, agent-tool]
+difficulty: intermediate
+status: active
+review: |
+  Library that gives AI agents the ability to control a web browser.
+  Supports vision-based and DOM-based interaction with any website.
+  Best for building agents that need to navigate, extract data from, or interact with websites.
+use_cases:
+  - web-automation
+  - scraping
+  - agent-tool
+related:
+  - langchain
+  - crewai

@@ -1,0 +1,19 @@
+name: n8n
+slug: n8n
+repo: n8n-io/n8n
+website: https://n8n.io
+category: agent
+tags: [workflow, automation, low-code, integrations]
+difficulty: beginner
+status: active
+review: |
+  Open-source workflow automation platform with 400+ integrations and AI capabilities.
+  Visual node-based editor with built-in AI agent nodes for LLM-powered automations.
+  Best for connecting AI models with existing business tools and workflow automation.
+use_cases:
+  - automation
+  - workflow
+  - integration
+related:
+  - dify
+  - flowise

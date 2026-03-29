@@ -1,0 +1,19 @@
+name: Continue
+slug: continue-dev
+repo: continuedev/continue
+website: https://continue.dev
+category: agent
+tags: [coding, vscode, jetbrains, ide, open-source]
+difficulty: beginner
+status: active
+review: |
+  Open-source AI code assistant that works as a VS Code and JetBrains extension.
+  Supports any LLM provider and keeps your data local if desired.
+  Best for developers wanting an open-source Copilot alternative with full control.
+use_cases:
+  - coding
+  - ide-integration
+related:
+  - cursor
+  - claude-code
+  - aider

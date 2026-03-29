@@ -1,0 +1,20 @@
+name: Llama
+slug: llama
+repo: meta-llama/llama-models
+website: https://llama.meta.com
+category: llm
+tags: [open-source, meta, local, fine-tuning]
+difficulty: intermediate
+status: active
+review: |
+  Meta's open-weight LLM family, the most popular base for fine-tuning and local deployment.
+  Llama 3 offers competitive performance with full weights available for commercial use.
+  Best for teams wanting full control over model weights and deployment.
+use_cases:
+  - fine-tuning
+  - local-deployment
+  - reasoning
+related:
+  - ollama
+  - mistral
+  - vllm

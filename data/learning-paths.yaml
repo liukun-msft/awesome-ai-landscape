@@ -8,11 +8,14 @@ paths:
         projects: [openai-api, anthropic-api, ollama]
         note: Start with a hosted API, move to local later
       - title: Pick a framework
-        projects: [langchain, llamaindex]
-        note: LangChain for breadth, LlamaIndex for RAG focus
+        projects: [langchain, llamaindex, vercel-ai-sdk]
+        note: LangChain for breadth, LlamaIndex for RAG focus, Vercel AI SDK for web apps
+      - title: Add a chat UI
+        projects: [open-webui, dify]
+        note: Open WebUI for self-hosted chat, Dify for visual workflow building
       - title: Deploy
         projects: []
-        note: Use Streamlit for prototyping, Vercel AI SDK for production
+        note: Use Streamlit for prototyping, Vercel AI SDK for production web apps
 
   - id: build-agent
     name: Build an AI Agent
@@ -20,11 +23,68 @@ paths:
     difficulty: intermediate
     steps:
       - title: Understand agent patterns
-        projects: [langchain]
-        note: Learn ReAct and plan-and-execute patterns
+        projects: [langchain, langgraph]
+        note: Learn ReAct, plan-and-execute, and graph-based agent patterns
       - title: Pick an agent framework
-        projects: [crewai]
-        note: CrewAI for multi-agent orchestration
+        projects: [crewai, autogen, openai-agents-sdk]
+        note: CrewAI for multi-agent, AutoGen for conversations, OpenAI SDK for simplicity
       - title: Add tools via MCP
-        projects: [mcp-typescript-sdk]
-        note: MCP gives your agent access to external systems
+        projects: [mcp-typescript-sdk, mcp-python-sdk, mcp-servers]
+        note: MCP gives your agent access to external systems with a standard protocol
+      - title: Add browser and code execution
+        projects: [browser-use, e2b]
+        note: Give your agent the ability to browse the web and run code safely
+
+  - id: build-rag
+    name: Build a RAG Pipeline
+    description: Build a retrieval-augmented generation system from document ingestion to answer quality
+    difficulty: intermediate
+    steps:
+      - title: Prepare your documents
+        projects: [unstructured, firecrawl]
+        note: Extract clean text from PDFs, web pages, and other document formats
+      - title: Choose a vector database
+        projects: [chromadb, weaviate, qdrant, pinecone]
+        note: ChromaDB for prototyping, Weaviate/Qdrant for production, Pinecone for managed
+      - title: Build the RAG pipeline
+        projects: [llamaindex, langchain, haystack]
+        note: LlamaIndex is RAG-focused, LangChain is general-purpose, Haystack is production-ready
+      - title: Evaluate and iterate
+        projects: [ragas, langfuse]
+        note: Use Ragas metrics to measure quality, Langfuse to trace and debug
+
+  - id: deploy-open-model
+    name: Deploy Your Own Open Model
+    description: Run open-weight LLMs locally or in production with full control
+    difficulty: advanced
+    steps:
+      - title: Choose a model
+        projects: [llama, mistral, deepseek, qwen]
+        note: Llama for broad ecosystem, Mistral for efficiency, DeepSeek for reasoning
+      - title: Run locally for development
+        projects: [ollama]
+        note: Ollama makes running models locally as easy as docker pull
+      - title: Deploy for production
+        projects: [vllm, tgi]
+        note: vLLM for maximum throughput, TGI for Hugging Face ecosystem integration
+      - title: Add a frontend
+        projects: [open-webui, dify]
+        note: Provide a polished chat interface for your users
+
+  - id: build-coding-assistant
+    name: Build a Coding Assistant
+    description: Explore and compare AI-powered coding tools and build your own
+    difficulty: intermediate
+    steps:
+      - title: Try existing coding agents
+        projects: [claude-code, cursor, aider, codex-cli, continue-dev]
+        note: Each has different strengths — CLI vs IDE, autonomy vs control
+      - title: Understand how they work
+        projects: [openhands, swe-agent]
+        note: Study research agents to understand coding agent architecture
+      - title: Add code execution safety
+        projects: [e2b]
+        note: Sandbox untrusted AI-generated code in isolated environments
+      - title: Connect to your tools
+        projects: [mcp-servers, mcp-typescript-sdk]
+        note: Use MCP to give your agent access to GitHub, filesystems, databases

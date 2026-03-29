@@ -1,0 +1,20 @@
+name: DeepSeek
+slug: deepseek
+repo: deepseek-ai/DeepSeek-V3
+website: https://www.deepseek.com
+category: llm
+tags: [open-source, reasoning, coding, moe]
+difficulty: intermediate
+status: active
+review: |
+  Chinese AI lab producing surprisingly capable open-weight models at low training cost.
+  DeepSeek-V3 and DeepSeek-R1 demonstrate strong reasoning and coding performance.
+  Notable for training efficiency breakthroughs and fully open weights.
+use_cases:
+  - reasoning
+  - coding
+  - local-deployment
+related:
+  - llama
+  - mistral
+  - qwen

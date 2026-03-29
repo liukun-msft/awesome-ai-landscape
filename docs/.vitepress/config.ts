@@ -31,6 +31,9 @@ export default defineConfig({
         items: [
           { text: "Build a Chatbot", link: "/paths/build-chatbot" },
           { text: "Build an Agent", link: "/paths/build-agent" },
+          { text: "Build a RAG Pipeline", link: "/paths/build-rag" },
+          { text: "Deploy Your Own Model", link: "/paths/deploy-open-model" },
+          { text: "Build a Coding Assistant", link: "/paths/build-coding-assistant" },
         ],
       },
     ],
@@ -55,6 +58,9 @@ export default defineConfig({
           items: [
             { text: "Build a Chatbot", link: "/paths/build-chatbot" },
             { text: "Build an Agent", link: "/paths/build-agent" },
+            { text: "Build a RAG Pipeline", link: "/paths/build-rag" },
+            { text: "Deploy Your Own Model", link: "/paths/deploy-open-model" },
+            { text: "Build a Coding Assistant", link: "/paths/build-coding-assistant" },
           ],
         },
       ],

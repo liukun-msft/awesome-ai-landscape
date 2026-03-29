@@ -1,0 +1,20 @@
+name: Instructor
+slug: instructor
+repo: jxnl/instructor
+website: https://python.useinstructor.com
+category: skill
+tags: [structured-output, pydantic, validation, python]
+difficulty: beginner
+status: active
+review: |
+  Simple library for getting structured (typed) outputs from LLMs via Pydantic models.
+  Handles retries, validation, and streaming with a clean, Pythonic API.
+  Best for developers who need reliable JSON/typed output from any LLM provider.
+use_cases:
+  - structured-output
+  - data-extraction
+  - validation
+related:
+  - openai-api
+  - anthropic-api
+  - litellm

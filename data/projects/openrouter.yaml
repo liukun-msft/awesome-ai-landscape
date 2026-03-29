@@ -1,0 +1,19 @@
+name: OpenRouter
+slug: openrouter
+repo: OpenRouterTeam/openrouter-runner
+website: https://openrouter.ai
+category: framework
+tags: [api-gateway, multi-model, routing, unified-api]
+difficulty: beginner
+status: active
+review: |
+  Unified API gateway providing access to hundreds of models from multiple providers.
+  Offers automatic fallbacks, price comparison, and usage analytics.
+  Best for developers wanting to compare models or switch providers without code changes.
+use_cases:
+  - gateway
+  - multi-provider
+  - cost-management
+related:
+  - litellm
+  - openai-api

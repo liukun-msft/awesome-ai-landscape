@@ -1,0 +1,19 @@
+name: Gemini
+slug: gemini
+repo: google-gemini/cookbook
+website: https://deepmind.google/technologies/gemini/
+category: llm
+tags: [gemini, multimodal, google, long-context]
+difficulty: beginner
+status: active
+review: |
+  Google DeepMind's multimodal model family with massive context windows (up to 1M tokens).
+  Gemini natively processes text, images, video, and audio.
+  Best for multimodal applications and integration with the Google ecosystem.
+use_cases:
+  - multimodal
+  - chatbot
+  - reasoning
+related:
+  - gpt-4
+  - claude

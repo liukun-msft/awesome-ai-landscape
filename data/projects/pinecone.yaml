@@ -1,0 +1,20 @@
+name: Pinecone
+slug: pinecone
+repo: pinecone-io/pinecone-python-client
+website: https://www.pinecone.io
+category: infra
+tags: [vector-database, managed, cloud, search]
+difficulty: beginner
+status: active
+review: |
+  Fully managed vector database designed for high-performance similarity search at scale.
+  Zero infrastructure management with a simple API and generous free tier.
+  Best for teams wanting production vector search without managing infrastructure.
+use_cases:
+  - vector-search
+  - rag
+  - semantic-search
+related:
+  - chromadb
+  - weaviate
+  - qdrant

@@ -1,0 +1,21 @@
+name: Claude
+slug: claude
+repo: anthropics/anthropic-cookbook
+website: https://www.anthropic.com
+category: llm
+tags: [claude, reasoning, long-context, safety]
+difficulty: beginner
+status: active
+review: |
+  Anthropic's flagship model family with industry-leading long context (200K tokens).
+  Claude excels at nuanced reasoning, careful instruction following, and safe outputs.
+  Best for complex analysis, coding, and tasks requiring careful judgment.
+use_cases:
+  - chatbot
+  - coding
+  - reasoning
+  - analysis
+related:
+  - anthropic-api
+  - claude-code
+  - gpt-4

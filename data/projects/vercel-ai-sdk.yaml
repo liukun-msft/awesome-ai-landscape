@@ -1,0 +1,19 @@
+name: Vercel AI SDK
+slug: vercel-ai-sdk
+repo: vercel/ai
+website: https://sdk.vercel.ai
+category: framework
+tags: [typescript, streaming, react, nextjs, frontend]
+difficulty: beginner
+status: active
+review: |
+  The go-to TypeScript toolkit for building AI-powered web apps with streaming UI.
+  First-class support for React Server Components and multiple LLM providers.
+  Best for frontend developers building chat interfaces and AI-powered web apps.
+use_cases:
+  - chatbot
+  - web-app
+  - streaming
+related:
+  - langchain
+  - openai-api

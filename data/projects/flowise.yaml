@@ -1,0 +1,19 @@
+name: Flowise
+slug: flowise
+repo: FlowiseAI/Flowise
+website: https://flowiseai.com
+category: agent
+tags: [low-code, visual, drag-and-drop, chatflow]
+difficulty: beginner
+status: active
+review: |
+  Drag-and-drop UI for building LLM flows and AI agents without coding.
+  Built on top of LangChain with a visual node-based editor.
+  Best for non-developers or teams wanting rapid prototyping of LLM workflows.
+use_cases:
+  - chatbot
+  - rag
+  - workflow
+related:
+  - dify
+  - langchain

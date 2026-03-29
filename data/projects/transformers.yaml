@@ -1,0 +1,20 @@
+name: Hugging Face Transformers
+slug: transformers
+repo: huggingface/transformers
+website: https://huggingface.co/transformers
+category: framework
+tags: [models, python, huggingface, fine-tuning, nlp]
+difficulty: intermediate
+status: active
+review: |
+  The definitive library for working with pre-trained transformer models.
+  Provides a unified API for thousands of models across NLP, vision, and audio tasks.
+  Best for ML engineers who need direct model access for inference or fine-tuning.
+use_cases:
+  - fine-tuning
+  - inference
+  - research
+related:
+  - llama
+  - tgi
+  - vllm

@@ -1,0 +1,20 @@
+name: AutoGen
+slug: autogen
+repo: microsoft/autogen
+website: https://microsoft.github.io/autogen/
+category: framework
+tags: [multi-agent, microsoft, conversation, python]
+difficulty: intermediate
+status: active
+review: |
+  Microsoft's multi-agent conversation framework for building complex LLM workflows.
+  Enables agents to converse with each other, humans, and tools in flexible topologies.
+  Best for research-oriented multi-agent systems and enterprise integration.
+use_cases:
+  - multi-agent
+  - automation
+  - research
+related:
+  - crewai
+  - langchain
+  - semantic-kernel

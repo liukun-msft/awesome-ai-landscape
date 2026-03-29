@@ -1,0 +1,19 @@
+name: OpenAI Codex CLI
+slug: codex-cli
+repo: openai/codex
+website: https://github.com/openai/codex
+category: agent
+tags: [coding, cli, openai, terminal]
+difficulty: beginner
+status: active
+review: |
+  OpenAI's open-source coding agent that runs in the terminal.
+  Lightweight alternative to full IDE agents with multimodal support.
+  Best for developers wanting a fast, terminal-based AI coding assistant.
+use_cases:
+  - coding
+  - automation
+related:
+  - claude-code
+  - cursor
+  - aider

@@ -1,0 +1,19 @@
+name: Open WebUI
+slug: open-webui
+repo: open-webui/open-webui
+website: https://openwebui.com
+category: agent
+tags: [chat-ui, self-hosted, ollama, web-interface]
+difficulty: beginner
+status: active
+review: |
+  Feature-rich, self-hosted web UI for interacting with local and cloud LLMs.
+  Supports Ollama and OpenAI-compatible APIs with RAG, multi-model chat, and user management.
+  Best for teams wanting a polished ChatGPT-like interface for their own models.
+use_cases:
+  - chatbot
+  - self-hosted
+  - web-ui
+related:
+  - ollama
+  - litellm

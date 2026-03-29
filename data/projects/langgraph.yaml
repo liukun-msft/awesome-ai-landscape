@@ -1,0 +1,20 @@
+name: LangGraph
+slug: langgraph
+repo: langchain-ai/langgraph
+website: https://langchain-ai.github.io/langgraph/
+category: framework
+tags: [agents, state-machine, graph, python, typescript]
+difficulty: intermediate
+status: active
+review: |
+  Framework for building stateful, multi-step agent workflows as graphs.
+  Provides fine-grained control over agent loops with persistence and human-in-the-loop.
+  Best for production agent systems that need reliable state management and control flow.
+use_cases:
+  - agents
+  - workflow
+  - multi-agent
+related:
+  - langchain
+  - crewai
+  - autogen

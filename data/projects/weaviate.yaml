@@ -1,0 +1,20 @@
+name: Weaviate
+slug: weaviate
+repo: weaviate/weaviate
+website: https://weaviate.io
+category: infra
+tags: [vector-database, search, graphql, go]
+difficulty: intermediate
+status: active
+review: |
+  Open-source vector database with built-in vectorization and hybrid search.
+  Supports keyword, vector, and hybrid search with GraphQL and REST APIs.
+  Best for production RAG applications that need scalable, feature-rich vector search.
+use_cases:
+  - vector-search
+  - rag
+  - knowledge-base
+related:
+  - chromadb
+  - pinecone
+  - qdrant

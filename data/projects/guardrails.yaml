@@ -1,0 +1,19 @@
+name: Guardrails AI
+slug: guardrails
+repo: guardrails-ai/guardrails
+website: https://www.guardrailsai.com
+category: skill
+tags: [validation, safety, output-quality, python]
+difficulty: intermediate
+status: active
+review: |
+  Framework for adding validation, safety checks, and structural guarantees to LLM outputs.
+  Comes with a hub of pre-built validators for common quality and safety checks.
+  Best for production applications that need reliable, safe LLM output enforcement.
+use_cases:
+  - validation
+  - safety
+  - output-quality
+related:
+  - instructor
+  - langchain

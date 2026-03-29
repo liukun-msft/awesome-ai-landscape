@@ -1,0 +1,19 @@
+name: Firecrawl
+slug: firecrawl
+repo: mendableai/firecrawl
+website: https://firecrawl.dev
+category: skill
+tags: [web-scraping, crawling, markdown, llm-ready]
+difficulty: beginner
+status: active
+review: |
+  API that crawls websites and converts them into clean, LLM-ready markdown.
+  Handles JavaScript rendering, anti-bot bypassing, and structured data extraction.
+  Best for building RAG pipelines that need to ingest web content.
+use_cases:
+  - scraping
+  - rag
+  - data-extraction
+related:
+  - browser-use
+  - langchain

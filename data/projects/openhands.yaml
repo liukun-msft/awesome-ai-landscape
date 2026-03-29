@@ -1,0 +1,19 @@
+name: OpenHands (formerly OpenDevin)
+slug: openhands
+repo: All-Hands-AI/OpenHands
+website: https://all-hands.dev
+category: agent
+tags: [coding, autonomous, research, sandbox]
+difficulty: intermediate
+status: active
+review: |
+  Platform for autonomous AI software agents that can write, test, and debug code.
+  Runs agents in sandboxed environments with full shell and browser access.
+  Best for exploring autonomous coding agents and software development research.
+use_cases:
+  - coding
+  - automation
+  - research
+related:
+  - swe-agent
+  - claude-code
