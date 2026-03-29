@@ -1,0 +1,16 @@
+name: Cursor
+slug: cursor
+repo: getcursor/cursor
+website: https://cursor.com
+category: agent
+tags: [coding, ide, agent, editor]
+difficulty: beginner
+status: active
+review: |
+  AI-first code editor built on VS Code with deep model integration.
+  Best for developers who want AI assistance directly in their IDE.
+  Supports multiple model providers and inline code generation.
+use_cases:
+  - coding
+related:
+  - claude-code

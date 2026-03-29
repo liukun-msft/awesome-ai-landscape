@@ -1,0 +1,18 @@
+name: OpenAI API
+slug: openai-api
+repo: openai/openai-python
+website: https://platform.openai.com
+category: llm
+tags: [gpt, api, python, typescript, proprietary]
+difficulty: beginner
+status: active
+review: |
+  The most widely adopted LLM API with GPT-4o and o1 models.
+  Best for getting started quickly with excellent documentation.
+  Trade-off: proprietary, usage-based pricing, no self-hosting.
+use_cases:
+  - chatbot
+  - rag
+  - agents
+related:
+  - anthropic-api

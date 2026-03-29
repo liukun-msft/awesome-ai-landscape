@@ -1,0 +1,18 @@
+name: LlamaIndex
+slug: llamaindex
+repo: run-llama/llama_index
+website: https://llamaindex.ai
+category: framework
+tags: [rag, indexing, python, retrieval]
+difficulty: beginner
+status: active
+review: |
+  Purpose-built for RAG and data retrieval pipelines.
+  Best for connecting LLMs to your own data sources.
+  More focused than LangChain — does one thing very well.
+use_cases:
+  - rag
+  - search
+related:
+  - langchain
+  - chromadb

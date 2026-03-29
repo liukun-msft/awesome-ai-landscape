@@ -1,0 +1,19 @@
+name: Anthropic API
+slug: anthropic-api
+repo: anthropics/anthropic-sdk-python
+website: https://docs.anthropic.com
+category: llm
+tags: [claude, api, python, typescript, proprietary]
+difficulty: beginner
+status: active
+review: |
+  Home of Claude models — strong at reasoning, coding, and long context.
+  Best for complex tasks requiring careful instruction following.
+  Excellent tool-use support and MCP integration.
+use_cases:
+  - chatbot
+  - agents
+  - coding
+related:
+  - openai-api
+  - claude-code

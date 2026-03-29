@@ -1,0 +1,72 @@
+categories:
+  - id: llm
+    name: Large Language Models
+    description: Foundation models and model providers
+    icon: brain
+    subcategories:
+      - id: proprietary
+        name: Proprietary Models
+      - id: open-source
+        name: Open Source Models
+      - id: specialized
+        name: Specialized Models
+
+  - id: framework
+    name: App Frameworks
+    description: Libraries for building LLM-powered applications
+    icon: blocks
+    subcategories:
+      - id: orchestration
+        name: Orchestration
+      - id: agent
+        name: Agent Frameworks
+      - id: minimal
+        name: Minimal / Lightweight
+
+  - id: agent
+    name: AI Agents
+    description: Autonomous agent systems and platforms
+    icon: robot
+    subcategories:
+      - id: coding
+        name: Coding Agents
+      - id: general
+        name: General Purpose
+      - id: platform
+        name: Agent Platforms
+
+  - id: mcp
+    name: MCP Ecosystem
+    description: Model Context Protocol servers, clients, and tools
+    icon: plug
+    subcategories:
+      - id: server
+        name: MCP Servers
+      - id: client
+        name: MCP Clients
+      - id: toolkit
+        name: MCP Toolkits
+
+  - id: skill
+    name: Skills & Plugins
+    description: Reusable capabilities for AI agents
+    icon: puzzle
+    subcategories:
+      - id: tool-use
+        name: Tool Use
+      - id: retrieval
+        name: Retrieval
+      - id: code-execution
+        name: Code Execution
+
+  - id: infra
+    name: Infrastructure
+    description: Deployment, observability, evaluation, and ops
+    icon: server
+    subcategories:
+      - id: serving
+        name: Model Serving
+      - id: eval
+        name: Evaluation
+      - id: observability
+        name: Observability

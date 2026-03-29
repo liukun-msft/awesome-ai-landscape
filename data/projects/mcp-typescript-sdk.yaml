@@ -1,0 +1,18 @@
+name: MCP TypeScript SDK
+slug: mcp-typescript-sdk
+repo: modelcontextprotocol/typescript-sdk
+website: https://modelcontextprotocol.io
+category: mcp
+tags: [mcp, sdk, typescript, protocol]
+difficulty: intermediate
+status: active
+review: |
+  Official TypeScript SDK for building MCP servers and clients.
+  Best for extending AI agents with custom tool integrations.
+  Well-documented with clear patterns for tools, resources, and prompts.
+use_cases:
+  - tool-integration
+  - agent-extension
+related:
+  - claude-code
+  - anthropic-api

@@ -1,0 +1,17 @@
+name: Claude Code
+slug: claude-code
+repo: anthropics/claude-code
+category: agent
+tags: [coding, cli, agent, anthropic]
+difficulty: beginner
+status: active
+review: |
+  Anthropic's agentic coding tool — a CLI that understands your full codebase.
+  Best for complex multi-file edits, refactoring, and codebase exploration.
+  Tight integration with Claude models and MCP ecosystem.
+use_cases:
+  - coding
+  - automation
+related:
+  - anthropic-api
+  - cursor

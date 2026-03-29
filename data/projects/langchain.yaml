@@ -1,0 +1,19 @@
+name: LangChain
+slug: langchain
+repo: langchain-ai/langchain
+website: https://langchain.com
+category: framework
+tags: [rag, agents, chains, python, typescript]
+difficulty: beginner
+status: active
+review: |
+  The most popular LLM app framework with the largest ecosystem.
+  Best for rapid prototyping and teams that want maximum community support.
+  Trade-off: abstraction layers can make debugging harder.
+use_cases:
+  - chatbot
+  - rag
+  - multi-agent
+related:
+  - llamaindex
+  - crewai

@@ -1,0 +1,18 @@
+name: ChromaDB
+slug: chromadb
+repo: chroma-core/chroma
+website: https://trychroma.com
+category: infra
+tags: [vector-database, embeddings, rag, python]
+difficulty: beginner
+status: active
+review: |
+  Simple open-source vector database for AI applications.
+  Best for local development and prototyping RAG systems.
+  Minimal setup — pip install and go. Scales to production with server mode.
+use_cases:
+  - rag
+  - search
+related:
+  - llamaindex
+  - langchain

@@ -1,0 +1,17 @@
+name: Ollama
+slug: ollama
+repo: ollama/ollama
+website: https://ollama.com
+category: infra
+tags: [local, serving, open-source, llama, mistral]
+difficulty: beginner
+status: active
+review: |
+  The easiest way to run open-source LLMs locally.
+  One command to download and run Llama, Mistral, Qwen, and more.
+  Best for local development, privacy-sensitive use cases, and experimentation.
+use_cases:
+  - local-development
+  - serving
+related:
+  - openai-api

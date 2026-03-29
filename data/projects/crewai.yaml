@@ -1,0 +1,17 @@
+name: CrewAI
+slug: crewai
+repo: crewAIInc/crewAI
+website: https://crewai.com
+category: framework
+tags: [agents, multi-agent, orchestration, python]
+difficulty: intermediate
+status: active
+review: |
+  Multi-agent orchestration framework with role-based agent design.
+  Best for building teams of specialized agents that collaborate.
+  Simple API makes multi-agent systems accessible to beginners.
+use_cases:
+  - multi-agent
+  - automation
+related:
+  - langchain

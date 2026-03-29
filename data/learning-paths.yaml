@@ -1,0 +1,30 @@
+paths:
+  - id: build-chatbot
+    name: Build Your First AI Chatbot
+    description: Go from zero to a working chatbot with memory and streaming
+    difficulty: beginner
+    steps:
+      - title: Choose a model provider
+        projects: [openai-api, anthropic-api, ollama]
+        note: Start with a hosted API, move to local later
+      - title: Pick a framework
+        projects: [langchain, llamaindex]
+        note: LangChain for breadth, LlamaIndex for RAG focus
+      - title: Deploy
+        projects: []
+        note: Use Streamlit for prototyping, Vercel AI SDK for production
+
+  - id: build-agent
+    name: Build an AI Agent
+    description: Create an autonomous agent that uses tools and reasons about tasks
+    difficulty: intermediate
+    steps:
+      - title: Understand agent patterns
+        projects: [langchain]
+        note: Learn ReAct and plan-and-execute patterns
+      - title: Pick an agent framework
+        projects: [crewai]
+        note: CrewAI for multi-agent orchestration
+      - title: Add tools via MCP
+        projects: [mcp-typescript-sdk]
+        note: MCP gives your agent access to external systems

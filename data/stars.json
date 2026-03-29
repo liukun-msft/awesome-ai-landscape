@@ -1,0 +1,12 @@
+{
+  "langchain": 105000,
+  "llamaindex": 39000,
+  "crewai": 28000,
+  "openai-api": 0,
+  "anthropic-api": 0,
+  "ollama": 115000,
+  "claude-code": 35000,
+  "cursor": 10000,
+  "mcp-typescript-sdk": 8000,
+  "chromadb": 17000
+}
