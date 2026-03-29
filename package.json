@@ -1,14 +1,14 @@
 {
   "name": "awesome-ai-landscape",
   "version": "1.0.0",
-  "description": "",
+  "description": "An interactive map of the AI ecosystem — models, frameworks, agents, MCP, and more",
   "scripts": {
     "generate": "tsx scripts/generate-pages.ts",
     "dev": "npm run generate && vitepress dev docs",
     "build": "npm run generate && vitepress build docs",
     "preview": "vitepress preview docs"
   },
-  "keywords": [],
+  "keywords": ["awesome-list", "ai", "llm", "agents", "mcp", "rag", "ecosystem", "landscape", "machine-learning", "deep-learning"],
   "author": "",
   "license": "ISC",
   "type": "module",
