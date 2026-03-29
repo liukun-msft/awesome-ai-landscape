@@ -1,0 +1,25 @@
+{
+  "name": "awesome-ai-landscape",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "generate": "tsx scripts/generate-pages.ts",
+    "dev": "npm run generate && vitepress dev docs",
+    "build": "npm run generate && vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/js-yaml": "^4.0.9",
+    "d3": "^7.9.0",
+    "js-yaml": "^4.1.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.31"
+  }
+}

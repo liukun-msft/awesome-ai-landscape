@@ -1,0 +1,7 @@
+node_modules/
+docs/.vitepress/cache/
+docs/.vitepress/dist/
+docs/.vitepress/data.json
+docs/categories/
+docs/projects/
+docs/paths/
