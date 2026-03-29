@@ -3,8 +3,7 @@ layout: home
 
 hero:
   name: "Awesome AI Landscape"
-  text: "Navigate the AI ecosystem with confidence"
-  tagline: "50+ curated projects with opinionated reviews, interactive ecosystem maps, and step-by-step learning paths — your guide to LLMs, agents, MCP, RAG, and more"
+  tagline: "Curated reviews, interactive ecosystem map, and learning paths for 50+ AI projects"
   actions:
     - theme: brand
       text: Explore the Ecosystem Map
