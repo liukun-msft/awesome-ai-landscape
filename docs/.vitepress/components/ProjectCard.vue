@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { withBase } from "vitepress";
+
 interface Project {
   name: string;
   slug: string;
@@ -30,7 +32,7 @@ function difficultyColor(d: string): string {
 </script>
 
 <template>
-  <a :href="`/projects/${project.slug}`" class="project-card">
+  <a :href="withBase(`/projects/${project.slug}`)" class="project-card">
     <div class="card-header">
       <h3>{{ project.name }}</h3>
       <span class="stars" v-if="project.stars > 0">&#11088; {{ formatStars(project.stars) }}</span>

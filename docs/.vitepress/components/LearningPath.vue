@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { withBase } from "vitepress";
 import allData from "../data.json";
 
 interface Step {
@@ -31,7 +32,7 @@ function getProjectName(slug: string): string {
           <a
             v-for="slug in step.projects"
             :key="slug"
-            :href="`/projects/${slug}`"
+            :href="withBase(`/projects/${slug}`)"
             class="step-project-link"
           >
             {{ getProjectName(slug) }}

@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Awesome AI Landscape",
   description: "An interactive map of the AI ecosystem — models, frameworks, agents, MCP, and more",
+  base: "/awesome-ai-landscape/",
   cleanUrls: true,
 
   head: [
@@ -60,7 +61,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/user/awesome-ai-landscape" },
+      { icon: "github", link: "https://github.com/liukun-msft/awesome-ai-landscape" },
     ],
 
     search: {

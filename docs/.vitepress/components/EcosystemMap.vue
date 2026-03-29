@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted, computed, watch } from "vue";
+import { withBase } from "vitepress";
 import allData from "../data.json";
 
 const svgRef = ref<SVGSVGElement | null>(null);
@@ -122,7 +123,7 @@ async function buildGraph() {
   });
 
   node.on("click", (_event: any, d: any) => {
-    window.location.href = `/projects/${d.slug}`;
+    window.location.href = withBase(`/projects/${d.slug}`);
   });
 
   const label = g
