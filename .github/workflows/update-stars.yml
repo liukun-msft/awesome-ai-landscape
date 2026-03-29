@@ -1,0 +1,64 @@
+name: Update Star Counts
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Update star counts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node --input-type=module -e "
+          import fs from 'fs';
+          import path from 'path';
+          import yaml from 'js-yaml';
+
+          const dir = path.join('data', 'projects');
+          const files = fs.readdirSync(dir).filter(f => f.endsWith('.yaml'));
+          const stars = {};
+
+          for (const f of files) {
+            const content = fs.readFileSync(path.join(dir, f), 'utf-8');
+            const project = yaml.load(content);
+            try {
+              const res = await fetch(
+                'https://api.github.com/repos/' + project.repo,
+                { headers: { Authorization: 'token ' + process.env.GITHUB_TOKEN } }
+              );
+              if (res.ok) {
+                const data = await res.json();
+                stars[project.slug] = data.stargazers_count;
+                console.log(project.slug + ': ' + data.stargazers_count);
+              }
+            } catch (e) {
+              console.error('Failed for ' + project.slug + ': ' + e.message);
+            }
+          }
+
+          fs.writeFileSync('data/stars.json', JSON.stringify(stars, null, 2) + '\n');
+          "
+
+      - name: Commit updated stars
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/stars.json
+          git diff --cached --quiet || git commit -m "chore: update star counts"
+          git push
