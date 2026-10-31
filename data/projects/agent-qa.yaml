@@ -1,0 +1,19 @@
+name: Agent QA
+slug: agent-qa
+repo: vostride/agent-qa
+website: https://vostride.com/docs/agent-qa
+category: infra
+tags: [evaluation, testing, browser-automation, mobile-testing]
+difficulty: intermediate
+status: active
+review: |
+  QA harness for defining web and mobile regression tests in natural language.
+  Uses execution memory and same-run recovery to adapt when UI interactions fail.
+  Best for teams that want version-controlled application tests usable by people and coding agents.
+use_cases:
+  - evaluation
+  - testing
+  - browser-automation
+related:
+  - langfuse
+  - ragas
